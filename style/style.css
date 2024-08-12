@@ -1,3 +1,28 @@
-body h3{
-    color: brown;
+#back{
+    background-color: black;
+}
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-weight: 700;
+    /* 1 rem = 16px */
+    font-size: 3rem;
+    color: orangered;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    color: aliceblue;
+}
+@media screen and (max-width: 576px){
+    .navbar, .nav-links{
+        flex-direction: row;
+    }
 }
