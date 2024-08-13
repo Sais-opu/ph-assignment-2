@@ -74,6 +74,7 @@ body{
 }
 .mid{
     justify-content: space-between;
+    text-decoration: none;
 }
 /* 3rd part */
 #run{
@@ -83,10 +84,20 @@ body{
 /* BMI */
 
 /* mEETTTTTTTTTTT */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 
 /* FFFFFOOTERRRRRRR */
 .fit{
     justify-content: center;
     font-weight: 800;
     font-size: 4rem;
+}
+/* Responsive media quary */
+@media screen and (max-width: 576px){
+    .navbar, .nav-links, .mid{
+        flex-direction: column;
+    }
 }
