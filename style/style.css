@@ -85,10 +85,12 @@ body{
 
 /* mEETTTTTTTTTTT */
 .grid{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    position: absolute;
-    position: relative;
+}
+#circle{
+    border-radius: 50%;
 }
 
 /* FFFFFOOTERRRRRRR */
