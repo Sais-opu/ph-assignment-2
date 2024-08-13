@@ -10,6 +10,9 @@ body{
     padding: 10px 20px;
     
 }
+.gray{
+    background-color: gray;
+}
 .display-flex{
     display: flex;
 }
@@ -36,3 +39,17 @@ body{
     max-width: 1440px;
     margin: 0 auto;
 }
+/* 2nd part */
+.middle{
+    text-align: center;
+}
+/* 3rd part */
+#run{
+    height: 312px;
+    width: 366px;
+}
+/* BMI */
+
+/* mEETTTTTTTTTTT */
+
+/* FFFFFOOTERRRRRRR */
