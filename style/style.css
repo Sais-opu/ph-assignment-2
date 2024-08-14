@@ -124,11 +124,10 @@ body{
 }
 
 /* mEETTTTTTTTTTT */
-.wid{
-    width: 20%;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+.wid1{
+    margin: 50px 50px;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
 }
 
 
