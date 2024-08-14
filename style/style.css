@@ -36,7 +36,7 @@ body{
 }
 #linear{
     height: 100vh; 
-    background: linear-gradient(to right, black, gray, black);
+    background: linear-gradient( black, rgb(56, 55, 55), black);
 }
 #big{
     font-size: 5rem;
@@ -88,7 +88,7 @@ body{
     color: white;
     background-color: ;
 }
-/* 2nd part */
+/* Habit part */
 .middle{
     text-align: center;
 }
@@ -101,7 +101,7 @@ body{
     justify-content: space-between;
     text-decoration: none;
 }
-/* 3rd part */
+/* Running part */
 #run{
     height: 312px;
     width: 366px;
@@ -123,15 +123,17 @@ body{
     grid-column: span 2;
 }
 
-/* mEETTTTTTTTTTT */
-.wid1{
-    margin: 50px 50px;
-    /* display: grid;
-    grid-template-columns: repeat(3,1fr); */
+/* Meet*/
+.wid{
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
 }
 
 
-/* FFFFFOOTERRRRRRR */
+/* FOOTER */
 .fit{
     justify-content: center;
     font-weight: 800;
