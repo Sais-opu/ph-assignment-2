@@ -23,6 +23,9 @@ body{
 .sec-title{
     font-size: 1.5rem;
 }
+.text-col{
+    color: rgb(62, 62, 62)
+}
 /* navbar style */
 @import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 #font {
@@ -76,7 +79,7 @@ body{
     font-size: 1.5rem;
     font-weight: 500;
     margin-left: 0;
-    margin-top: -1000000px;
+    margin-bottom: -1000000px;
     border-radius: 50px;
 }
 .bck #experience-year{
