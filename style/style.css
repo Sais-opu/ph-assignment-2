@@ -28,7 +28,7 @@ body{
 }
 /* navbar style */
 .backimg{
-    background-image: url('images/Images 2.png');
+    background-image: url(' .. imagew');
 }
 @import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 #font {
@@ -84,7 +84,7 @@ body{
     font-size: 2rem;
     font-weight: 400;
     color: white;
-    background-color: ;
+    
 }
 /* Habit part */
 .middle{
