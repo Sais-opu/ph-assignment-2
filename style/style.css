@@ -106,6 +106,8 @@ body{
 #run{
     height: 312px;
     width: 366px;
+    object-fit: none;
+    object-position: 60% 33%;
 }
 .len{
     width:1060px;
