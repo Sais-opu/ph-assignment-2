@@ -24,12 +24,34 @@ body{
     font-size: 1.5rem;
 }
 .text-col{
-    color: rgb(62, 62, 62)
+    color: rgb(53, 46, 46)
 }
 /* navbar style */
 .backimg{
-    background-image: url(' .. imagew');
+    position: relative;
 }
+.lower{
+    position: absolute;
+    margin-top: -100px;
+    border: 1px solid rgb(238, 7, 7);
+}
+.higher{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 200px;
+}
+.box-bck{
+    background-color: rgb(61, 56, 56);
+    backdrop-filter: blur(10px);
+    padding: 0px 10px;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #E6533C;
+    border-radius: 50%; /* Makes the element a circle */
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 #font {
     font-family: "Grey Qo", cursive;
@@ -39,7 +61,7 @@ body{
 }
 #linear{
     height: 100vh; 
-    background: linear-gradient( black,rgb(108, 107, 107), black);
+    background: linear-gradient( black,rgb(63, 60, 60), black);
 }
 #big{
     font-size: 5rem;
