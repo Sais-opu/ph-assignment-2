@@ -134,14 +134,26 @@ td{
 
 
 /* Meet*/
+.img-con{
+    position: relative; 
+    width: 100%;
+}
+.text{
+    padding: 50px 20px;
+    position: absolute;
+    bottom: 0;
+    margin-top: -1000px;
+    
+}
 .wid{
     width: auto;
     height: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* justify-content: center; */
+    justify-content: center; */
     align-items: center;
 }
+
 
 
 /* FOOTER */
