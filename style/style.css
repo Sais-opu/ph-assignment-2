@@ -125,6 +125,9 @@ body{
 .select-2{
     grid-column: span 2;
 }
+td{
+    color: rgb(62, 62, 62) 
+}
 
 /* Meet*/
 .wid{
