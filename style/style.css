@@ -27,6 +27,9 @@ body{
     color: rgb(62, 62, 62)
 }
 /* navbar style */
+/* .backimg{
+    background-image:url("./Imagef");
+} */
 @import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 #font {
     font-family: "Grey Qo", cursive;
@@ -36,7 +39,7 @@ body{
 }
 #linear{
     height: 100vh; 
-    background: linear-gradient( black, rgb(56, 55, 55), black);
+    background: linear-gradient( black,rgb(108, 107, 107), black);
 }
 #big{
     font-size: 5rem;
