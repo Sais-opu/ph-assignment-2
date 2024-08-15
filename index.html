@@ -79,7 +79,7 @@
         </div>
         <div class="display-flex navbar">
             <div>
-                <table>
+                <table border="1">
                     <p class="nav-links sec-title">BMI Calculator Chart</p>
                     <tr>
                         <th>BMI</th>
@@ -109,20 +109,23 @@
                 <p class="text-col">Follow BMI</p>
                 <div>
                     <form>
-                        <input type="text" placeholder="Height">
-                        <input type="text" placeholder="Weight"> <br>
-                        <input type="text" placeholder="Age">
-                        <select class="select-1">
+                        <input class="gray" type="text" placeholder="Height">
+                        <input class="gray"  type="text" placeholder="Weight"> <br>
+                        <input class="gray"  type="text" placeholder="Age">
+                        <select class="select-1 gray">
                             <option value="">Sex</option>
                             <option value="Male">Male</option>
                             <option value="Female">Female</option>
                         </select> <br>
-                        <select class="select-2">
+                        <select class="select-2 gray">
                             <option value="">Select an activity factor</option>
                             <option value="Pushup">PushUp</option>
                             <option value="Running">Running</option>
                             <option value="Yoga">Yoga</option>                 
                         </select>
+                        <ul class="nav-links , display-flex">
+                            <li class="nav-item"><a href="" id="bck" class="nav-link">Calculate</a></li>
+                        </ul>
                     </form>
                 </div>
             </div>
