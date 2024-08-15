@@ -203,4 +203,23 @@ td{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .none{
+        display: none;
+    }
+    .block{
+        display: block;
+        /* padding-right: 200px; */
+    }
+    .top{
+        margin-top: 1000px;
+    }
+    body{
+        max-width: 576px;
+    }
+    .right{
+        margin-left: -150px;
+    }
+    .pad{
+        padding-left:150px;
+    }
 }
