@@ -55,13 +55,12 @@ body{
     width: 50px;
     height: 50px;
     background-color: #E6533C;
-    border-radius: 50%; /* Makes the element a circle */
+    border-radius: 50%; 
     margin-top: 25px;
 }
 
 
 #linear{
-    /* height: 100vh;  */
     background: linear-gradient( black,rgb(63, 60, 60), black);
 }
 #big{
@@ -126,9 +125,6 @@ body{
     max-width: 560px;
     margin: 0 auto;
     justify-content: center;
-    /* margin-left: 50px;
-    margin-right: 50px; */
-
 }
 .mid{
     justify-content: space-between;
@@ -227,14 +223,13 @@ td{
     .pad{
         padding-left:150px;
         padding-right: 150px;
-        /* margin-right: 200px; */
     }
     .na{
         display: flex;
     }
     .dix{
         display: block;
-        /* align-items: right; */
+        
         margin-left: 300px;
         margin-top: -123px ;
         color: aliceblue;
