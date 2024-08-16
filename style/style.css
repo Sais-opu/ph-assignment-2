@@ -71,6 +71,10 @@ body{
     font-weight: 800;
     font-size: 2rem;
 }
+.dix{
+    color: white;
+    display: none;
+}
 .navbar{
     justify-content: space-between;
     align-items: center;
@@ -179,8 +183,10 @@ td{
     height: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    justify-content: center; */
+    justify-content: center; 
     align-items: center;
+    margin-left: 230px;
+    margin-right: 200px;
 }
 
 
@@ -220,8 +226,20 @@ td{
     }
     .pad{
         padding-left:150px;
+        padding-right: 150px;
+        /* margin-right: 200px; */
     }
-    #circle{
-        <i class="fa-solid fa-play" style="color: #f2f2f2;"></i>
+    .na{
+        display: flex;
+    }
+    .dix{
+        display: block;
+        /* align-items: right; */
+        margin-left: 300px;
+        margin-top: -123px ;
+        color: aliceblue;
+    }
+    .fl{
+        display: flex;
     }
 }
